@@ -1,0 +1,33 @@
+{
+  "method": "AugMix-Input-Gray",
+  "seed": 2028,
+  "dry_run": false,
+  "output_root": "data/dart_dut/DUT-Gray-AugMixInputTrain/train",
+  "train_list": "data/dart_dut/yamls/train_augmix_input_gray.txt",
+  "data_yaml": "data/dart_dut/yamls/dut_gray_augmix_input_gray.yaml",
+  "manifest": "data/dart_dut/yamls/train_augmix_input_gray_manifest.csv",
+  "preview_grid": "",
+  "operation_counts": {
+    "AutoContrast": 19344,
+    "Brightness": 19494,
+    "Contrast": 19406,
+    "Equalize": 19490,
+    "Identity": 19879,
+    "Posterize": 19396,
+    "Sharpness": 19611,
+    "Solarize": 19504
+  },
+  "verification": {
+    "train_entries": 31200,
+    "manifest_rows": 31200,
+    "clean_entries": 5200,
+    "augmented_entries": 26000,
+    "sources_with_five_augmented": 5200,
+    "decoded_augmented_images": 26000,
+    "label_mismatches": 0,
+    "shape_mismatches": 0,
+    "unreadable_images": 0,
+    "dtype_or_channels_bad": 0,
+    "train_val_test_path_overlap": false
+  }
+}

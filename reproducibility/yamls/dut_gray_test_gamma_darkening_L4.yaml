@@ -1,0 +1,9 @@
+path: ../..
+nc: 1
+names:
+- uav
+ch: 1
+channels: 1
+train: reproducibility/splits/train_clean.txt
+val: reproducibility/splits/test_gamma_darkening_L4.txt
+test: reproducibility/splits/test_gamma_darkening_L4.txt

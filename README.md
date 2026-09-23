@@ -65,6 +65,10 @@ python tools/eval_degradation_suite.py \
 
 The remaining scripts build ablations and held-out test suites, evaluate the supplied DUT-Adv test split, summarize metrics, and benchmark existing TensorRT engines. Pass `--help` to any script for its options. Generated data, runs, weights, and outputs are excluded from version control.
 
+## Reproducibility files
+
+Fixed split lists, dataset YAMLs, offline generation manifests, and the paper-facing result tables are collected under `reproducibility/`. YAML dataset roots resolve to the repository root, and split-list entries are relative to that root. Dataset images and labels, model weights, and raw deployment logs are not included; obtain the source data separately and follow `reproducibility/README.md` for the expected layout.
+
 For the target-domain test, first create a grayscale copy of the supplied test split:
 
 ```bash

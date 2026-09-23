@@ -1,0 +1,5 @@
+Device,Runtime,Precision,Batch size,Input shape,Method,Engine size MB,Mean latency ms,Median latency ms,P90 latency ms,P95 latency ms,FPS,Average power W,Energy per inference mJ
+Jetson AGX Orin,TensorRT,FP16,1,1x1x640x640,SPhantomNet-Gray Clean,13.0289,4.3634,3.9927,5.2424,5.6435,229.18,18.084,78.91
+Jetson AGX Orin,TensorRT,FP16,1,1x1x640x640,SPhantomNet-Gray DART,13.0226,4.3678,3.9855,5.1888,6.0149,228.95,18.289,79.89
+Jetson AGX Orin,TensorRT,FP16,1,1x1x640x640,SPhantomNet-Gray SDCT,13.1233,4.2309,3.9458,4.8493,5.6217,236.36,18.904,79.98
+Jetson AGX Orin,TensorRT,FP16,1,1x1x640x640,YOLO11n-Gray Clean,11.7362,4.6250,4.2432,5.4265,6.6301,216.22,17.914,82.85

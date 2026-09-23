@@ -1,0 +1,6 @@
+Method,Type Sampling,Severity Sampling,Mixed,Train Size,Seeds,Clean mAP50,Avg-Degraded mAP50,Avg-Degraded mAP50-95,Robustness Ratio
+SPhantomNet Clean Repeat,None; clean list repeated,None,No,31200,"0,1,2",0.917328 +/- 0.005901,0.736942 +/- 0.004222,0.489151 +/- 0.001995,0.803376 +/- 0.006432
+SPhantomNet DART,Deterministic fixed degradation families,Fixed deterministic train parameters,Yes,31200,"0,1,2",0.907645 +/- 0.002330,0.828610 +/- 0.007904,0.557960 +/- 0.006586,0.912938 +/- 0.010399
+SPhantomNet SDCT-Full / Random-Aug,Random over 5 degradation families,Continuous random,Yes,31200,"0,1,2",0.904029 +/- 0.002819,0.841890 +/- 0.003328,0.563415 +/- 0.003343,0.931265 +/- 0.002186
+SPhantomNet SDCT-NoMixed,Random over 4 single-degradation families,Continuous random,No,31200,"0,1,2",0.905887 +/- 0.000544,0.819850 +/- 0.001378,0.553772 +/- 0.002639,0.905026 +/- 0.002006
+SPhantomNet SDCT-Discrete,Random over 5 degradation families,Fixed L1/L2/L3 random,Yes,31200,"0,1,2",0.904194 +/- 0.002649,0.846605 +/- 0.003069,0.564560 +/- 0.004282,0.936310 +/- 0.002776

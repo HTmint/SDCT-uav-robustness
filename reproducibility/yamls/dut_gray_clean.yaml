@@ -1,0 +1,9 @@
+path: ../..
+nc: 1
+names:
+- uav
+ch: 1
+channels: 1
+train: reproducibility/splits/train_clean.txt
+val: reproducibility/splits/val_clean.txt
+test: reproducibility/splits/test_clean.txt

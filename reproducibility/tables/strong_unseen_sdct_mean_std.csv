@@ -1,0 +1,5 @@
+Method,Training,Seeds,Clean mAP50 mean +/- std,Strong-Unseen Avg mAP50 mean +/- std,Strong-Unseen Avg mAP50-95 mean +/- std,Strong-Unseen Robustness Ratio mean +/- std
+SPhantomNet-Gray Clean,Clean,"0,1,2",0.883759 +/- 0.003079,0.555569 +/- 0.006228,0.321440 +/- 0.003421,0.628664 +/- 0.009208
+SPhantomNet-Gray Clean Repeat,Clean Repeat,"0,1,2",0.917337 +/- 0.005915,0.586871 +/- 0.013617,0.353837 +/- 0.009746,0.639797 +/- 0.016921
+SPhantomNet-Gray DART,DART,"0,1,2",0.907692 +/- 0.002264,0.642719 +/- 0.005705,0.390091 +/- 0.005049,0.708093 +/- 0.007956
+SPhantomNet-Gray SDCT,SDCT,"0,1,2",0.904029 +/- 0.002819,0.693854 +/- 0.007566,0.422681 +/- 0.006535,0.767501 +/- 0.006025
